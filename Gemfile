@@ -52,3 +52,6 @@ gem 'id3lib-ruby'
 
 # Login
 gem 'devise'
+
+# Pentru bara de sus (login)
+gem 'bootstrap-sass'
