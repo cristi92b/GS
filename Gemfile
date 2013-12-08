@@ -48,7 +48,7 @@ end
 gem "carrierwave"
 
 # citeste/scrie taguri id3 pentru fisiere mp3
-gem 'id3lib-ruby'
+#gem 'id3lib-ruby'
 
 # Login
 gem 'devise'
