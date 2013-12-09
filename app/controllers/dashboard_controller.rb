@@ -6,12 +6,15 @@ class DashboardController < ApplicationController
   end
   def new
 	@song = Song.new
+
   end
   def create
+	@song = Song.new(params[:song])
+	@song.save
 	uploader = MusicfileUploader.new
-	uploader.store!(@song)
-	puts uploader
-	puts @song
+	uploader.store!(:file)
+	#puts uploader
+	#puts @song
 	#redirect_to dashboard_index_path
   end
   def edit
