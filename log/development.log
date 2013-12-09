@@ -14984,3 +14984,449 @@ Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-12-09 11:25:28 +0200
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-09 11:25:28 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-09 11:29:36 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 86ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-09 11:29:36 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-09 11:29:36 +0200
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-12-09 11:29:36 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-09 11:29:36 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-09 11:29:36 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-09 11:29:36 +0200
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-12-09 11:29:36 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-12-09 11:29:36 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-09 11:29:36 +0200
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2013-12-09 11:29:37 +0200
+Processing by DashboardController#index as HTML
+  Rendered dashboard/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 17ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/D.mp3" for 127.0.0.1 at 2013-12-09 11:29:40 +0200
+
+ActionController::RoutingError (No route matches [GET] "/D.mp3"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib64/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/lib64/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/lib64/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.8ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (30.5ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-12-09 11:29:41 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/devise-3.2.2/app/views/devise/shared/_links.erb (1.7ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/devise-3.2.2/app/views/devise/registrations/new.html.erb within layouts/application (63.2ms)
+Completed 200 OK in 81ms (Views: 70.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-12-09 11:29:52 +0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"95XMxNrWJAVFGkWUWCm6FU6WRr3mAfm5hVJxpBIb0hI=", "user"=>{"email"=>"ceva@altceva.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+WARNING: Can't mass-assign protected attributes for User: email, password, password_confirmation
+
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/devise-3.2.2/app/views/devise/shared/_links.erb (0.4ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/devise-3.2.2/app/views/devise/registrations/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 26ms (Views: 12.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-12-09 11:29:52 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-09 11:29:52 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-09 11:29:52 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-09 11:29:52 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-09 11:29:52 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-09 11:29:52 +0200
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-12-09 11:29:52 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-12-09 11:29:52 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-09 11:29:52 +0200
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+Processing by DashboardController#index as HTML
+  Rendered dashboard/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 40ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-09 11:31:17 +0200
+
+
+Started GET "/dashboard/new" for 127.0.0.1 at 2013-12-09 11:31:18 +0200
+Processing by DashboardController#new as HTML
+  Rendered dashboard/_form.html.erb (13.1ms)
+  Rendered dashboard/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/dashboard" for 127.0.0.1 at 2013-12-09 11:31:31 +0200
+Processing by DashboardController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"95XMxNrWJAVFGkWUWCm6FU6WRr3mAfm5hVJxpBIb0hI=", "song"=>{"user_id"=>"", "title"=>"1234", "artist"=>"1234", "album"=>"1234", "musicfile"=>#<ActionDispatch::Http::UploadedFile:0x000000032edb98 @tempfile=#<Tempfile:/tmp/RackMultipart20131209-6228-18nehmt>, @original_filename="dg.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"song[musicfile]\"; filename=\"dg.mp3\"\r\nContent-Type: audio/mp3\r\n">}, "commit"=>"Upload"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `delete' for nil:NilClass):
+  app/controllers/dashboard_controller.rb:12:in `create'
+
+
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-09 15:11:58 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 152ms (Views: 134.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-09 15:11:58 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-09 15:11:58 +0200
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-12-09 15:11:58 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-09 15:11:58 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-12-09 15:11:58 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-09 15:11:58 +0200
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-12-09 15:11:58 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-09 15:11:58 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-09 15:11:58 +0200
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2013-12-09 15:12:00 +0200
+Processing by DashboardController#index as HTML
+  Rendered dashboard/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 49ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/D.mp3" for 127.0.0.1 at 2013-12-09 15:12:08 +0200
+
+ActionController::RoutingError (No route matches [GET] "/D.mp3"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib64/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/lib64/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/lib64/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.1ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (52.0ms)
+
+
+Started GET "/D.mp3" for 127.0.0.1 at 2013-12-09 15:12:08 +0200
+
+ActionController::RoutingError (No route matches [GET] "/D.mp3"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib64/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/lib64/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/lib64/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (24.7ms)
+
+
+Started GET "/dashboard/new" for 127.0.0.1 at 2013-12-09 15:12:15 +0200
+Processing by DashboardController#new as HTML
+  Rendered dashboard/_form.html.erb (92.4ms)
+  Rendered dashboard/new.html.erb within layouts/application (103.0ms)
+Completed 200 OK in 122ms (Views: 119.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-12-09 15:12:17 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/devise-3.2.2/app/views/devise/shared/_links.erb (1.7ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/devise-3.2.2/app/views/devise/registrations/new.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 53ms (Views: 41.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-12-09 15:12:23 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/devise-3.2.2/app/views/devise/shared/_links.erb (0.3ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/devise-3.2.2/app/views/devise/registrations/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2013-12-09 15:12:24 +0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"x8YQmyvUImVtxhdlzEGRdklxA7r3XXkRcyNF7fVKs8E="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-09 15:12:24 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-09 15:12:24 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-09 15:12:24 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-09 15:12:24 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-09 15:12:24 +0200
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-12-09 15:12:24 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-09 15:12:24 +0200
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-12-09 15:12:24 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-12-09 15:12:24 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-09 15:12:24 +0200
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2013-12-09 15:12:25 +0200
+Processing by DashboardController#index as HTML
+  Rendered dashboard/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/new" for 127.0.0.1 at 2013-12-09 15:12:26 +0200
+Processing by DashboardController#new as HTML
+  Rendered dashboard/_form.html.erb (2.7ms)
+  Rendered dashboard/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dashboard" for 127.0.0.1 at 2013-12-09 15:12:40 +0200
+Processing by DashboardController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"trepj5viJq7UL2fqgszci8w3p+m4x1+UNup3DepDm4c=", "song"=>{"user_id"=>"", "title"=>"1234", "artist"=>"1234", "album"=>"1234", "musicfile"=>#<ActionDispatch::Http::UploadedFile:0x000000031ad030 @tempfile=#<Tempfile:/tmp/RackMultipart20131209-8952-b2ybg4>, @original_filename="D.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"song[musicfile]\"; filename=\"D.mp3\"\r\nContent-Type: audio/mp3\r\n">}, "commit"=>"Upload"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `delete' for nil:NilClass):
+  app/controllers/dashboard_controller.rb:12:in `create'
+
+
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/cristi/.gem/ruby/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/dashboard/new" for 127.0.0.1 at 2013-12-09 15:17:59 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DashboardController#new as HTML
+  Rendered dashboard/_form.html.erb (55.6ms)
+  Rendered dashboard/new.html.erb within layouts/application (59.4ms)
+Completed 200 OK in 123ms (Views: 96.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-09 15:17:59 +0200
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-12-09 15:17:59 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-09 15:17:59 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-09 15:17:59 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-09 15:17:59 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-09 15:17:59 +0200
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-12-09 15:17:59 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-12-09 15:17:59 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-09 15:17:59 +0200
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2013-12-09 15:18:01 +0200
+Processing by DashboardController#index as HTML
+  Rendered dashboard/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms)
